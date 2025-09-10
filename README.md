@@ -5,7 +5,7 @@ The design is inspired by the *Savaal* research pipeline (arXiv:2502.12477).
 
 ---
 
-## 🔎 What it does
+## What it does
 - Processes large documents by **chunking + retrieval**  
 - Extracts and ranks **main ideas** using Gemini  
 - Generates **MCQs in JSON format** (1 correct + 3 distractors)  
@@ -13,7 +13,7 @@ The design is inspired by the *Savaal* research pipeline (arXiv:2502.12477).
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 ```bash
 pip install google-generativeai pypdf numpy scikit-learn tqdm
 ```
@@ -40,13 +40,13 @@ Output example (`all_questions.json`):
 
 ---
 
-## ✅ Highlights
+## Highlights
 - **Scalable**: chunking + retrieval enables handling of long PDFs  
 - **Quality-focused**: plausible distractors, JSON schema validation, optional LLM quality filter  
 - **Clean design**: modular code, grouped JSON outputs, well-documented notebook  
 
 ---
 
-## 📖 References
+## References
 - *Savaal: Scalable Concept-Driven Question Generation* (Noorbakhsh et al., 2025)  
 - Google Gemini API documentation  
